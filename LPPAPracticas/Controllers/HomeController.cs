@@ -26,5 +26,13 @@ namespace LPPAPracticas.Controllers
 
             return View();
         }
+
+        public ActionResult Html()
+        {
+            ViewBag.Message = "Html";
+
+            return View();
+        }
+
     }
 }
